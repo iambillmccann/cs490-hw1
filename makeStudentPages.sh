@@ -1,0 +1,45 @@
+#!/bin/bash
+
+# yarn redwood generate page  melvinacademia
+yarn redwood generate page  sergioacevedo
+yarn redwood generate page  lazaragoev
+yarn redwood generate page  aleynaaydin
+yarn redwood generate page  tylerberkman
+yarn redwood generate page  thomasbethea
+yarn redwood generate page  michaelbrzostek
+yarn redwood generate page  hao_massimochen
+yarn redwood generate page  dilipchitbahal
+yarn redwood generate page  michaeldaley
+yarn redwood generate page  shumsherdhillon
+yarn redwood generate page  robertdiasio
+yarn redwood generate page  willisdo
+yarn redwood generate page  edendubrovsky
+yarn redwood generate page  anthonyfarro
+yarn redwood generate page  andrewfouad
+yarn redwood generate page  alecgarbely
+yarn redwood generate page  evelyngarcia-mendoza
+yarn redwood generate page  timothygurguis
+yarn redwood generate page  johnhawkins
+yarn redwood generate page  snehakafle
+yarn redwood generate page  dhruvilkansara
+yarn redwood generate page  andykim
+yarn redwood generate page  alonlerner
+yarn redwood generate page  calixonlormilus
+yarn redwood generate page  sakthivelanmanikanthan
+yarn redwood generate page  brunomota
+yarn redwood generate page  zacharymull
+yarn redwood generate page  nicolasoberholtzer
+yarn redwood generate page  raymondotoadese
+yarn redwood generate page  dhyeypatel
+yarn redwood generate page  purabpatel
+yarn redwood generate page  rajpatel
+yarn redwood generate page  villairepierre
+yarn redwood generate page  mohamedrachid
+yarn redwood generate page  colberoberson
+yarn redwood generate page  neerajseedani
+yarn redwood generate page  sohamshah
+yarn redwood generate page  ricardosierra
+yarn redwood generate page  jaspreetsingh
+yarn redwood generate page  leonardoulloa
+yarn redwood generate page  johannwinter
+yarn redwood generate page  michaelwong
