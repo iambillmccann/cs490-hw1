@@ -48,3 +48,15 @@ input.error, textarea.error {
 .flex-between button {
   display: inline;
 }
+
+/* Custom CSS below this comment */
+
+.basicContent {
+  margin: 5em;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}

@@ -5,18 +5,11 @@ const HomePage = () => {
   return (
     <>
       <MetaTags title="Home" description="Home page" />
-
-      <header>
-        <h1>Redwood Blog</h1>
-        <nav>
-          <ul>
-            <li>
-              <Link to={routes.billmccann()}>Bill McCann</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>Home</main>
+      <div>
+        <li>
+          <Link to={routes.billmccann()}>Bill McCann</Link>
+        </li>
+      </div>
     </>
   )
 }

@@ -1,4 +1,3 @@
-import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 
 const BillmccannPage = () => {
@@ -6,23 +5,11 @@ const BillmccannPage = () => {
     <>
       <MetaTags title="Bill McCann" description="Bill's page" />
 
-      <header>
-        <h1>Redwood Blog</h1>
-        <nav>
-          <ul>
-            <li>
-              <Link to={routes.billmccann()}>Bill McCann</Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
-      <main>
-        <p>
-          This site was created to demonstrate my mastery of Redwood: Look on my
-          works, ye mighty, and despair!
-        </p>
-        <Link to={routes.home()}>Return home</Link>
-      </main>
+      <img
+        className="center"
+        src="https://media1.giphy.com/media/l1Kuf0U0AcwZUUzq8/giphy.gif?cid=790b7611949becfa6cd1bf38d8858e678f7119377f46b1ed&rid=giphy.gif&ct=g"
+        alt="Spongebob rips his pants"
+      />
     </>
   )
 }
