@@ -51,6 +51,7 @@ const Routes = () => {
         <Route path="/melvinacademia" page={MelvinacademiaPage} name="melvinacademia" />
         <Route path="/billmccann" page={BillmccannPage} name="billmccann" />
         <Route path="/" page={HomePage} name="home" />
+        <Route path="/mehulpatel" page={MehulpatelPage} name="mehulpatel" />s{' '}
       </Set>
       <Route notfound page={NotFoundPage} />
     </Router>

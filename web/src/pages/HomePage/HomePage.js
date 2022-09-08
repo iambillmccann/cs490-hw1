@@ -99,6 +99,8 @@ const HomePage = () => {
           <br />
           <Link to={routes.michaelwong()}> Michael Wong</Link>
           <br />
+          <Link to={routes.mehulpatel()}>Mehul Patel</Link>
+          <br />
         </p>
       </div>
     </>
