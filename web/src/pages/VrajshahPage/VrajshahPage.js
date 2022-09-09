@@ -1,19 +1,24 @@
-import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 
 const VrajshahPage = () => {
   return (
     <>
       <MetaTags title="Vrajshah" description="Vrajshah page" />
-
-      <h1>VrajshahPage</h1>
-      <p>
-        Find me in <code>./web/src/pages/VrajshahPage/VrajshahPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>vrajshah</code>, link to me with `
-        <Link to={routes.vrajshah()}>Vrajshah</Link>`
-      </p>
+      <div
+        style={{
+          background: 'radial-gradient(#1fa2ff, #12d8fa, #a6ffcb)',
+          textAlign: 'center',
+        }}
+      >
+        <h1 style={{ textAlign: 'center' }}> {"Vraj's Page"}</h1>
+        <img
+          src={
+            'https://media.giphy.com/media/YWf50NNii3r4k/giphy-downsized-large.gif'
+          }
+          alt={'gif'}
+          style={{ width: '75%' }}
+        ></img>
+      </div>
     </>
   )
 }
