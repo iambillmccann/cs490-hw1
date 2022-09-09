@@ -101,6 +101,8 @@ const HomePage = () => {
           <br />
           <Link to={routes.mehulpatel()}>Mehul Patel</Link>
           <br />
+          <Link to={routes.vrajshah()}>Vraj Shah</Link>
+          <br />
         </p>
       </div>
     </>
