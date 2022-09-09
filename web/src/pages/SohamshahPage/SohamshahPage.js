@@ -7,13 +7,11 @@ const SohamshahPage = () => {
       <MetaTags title="Sohamshah" description="Sohamshah page" />
 
       <h1>SohamshahPage</h1>
-      <p>
-        Find me in <code>./web/src/pages/SohamshahPage/SohamshahPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>sohamshah</code>, link to me with `
-        <Link to={routes.sohamshah()}>Sohamshah</Link>`
-      </p>
+      <img
+        className="center"
+        src="https://giphy.com/embed/E69lV4uZfmqpu0S1JA"
+        alt="When class finally ends"
+      />
     </>
   )
 }
