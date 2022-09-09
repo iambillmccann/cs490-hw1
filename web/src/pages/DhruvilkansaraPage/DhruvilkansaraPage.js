@@ -6,15 +6,11 @@ const DhruvilkansaraPage = () => {
     <>
       <MetaTags title="Dhruvilkansara" description="Dhruvilkansara page" />
 
-      <h1>DhruvilkansaraPage</h1>
-      <p>
-        Find me in{' '}
-        <code>./web/src/pages/DhruvilkansaraPage/DhruvilkansaraPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>dhruvilkansara</code>, link to me with `
-        <Link to={routes.dhruvilkansara()}>Dhruvilkansara</Link>`
-      </p>
+      <img
+        className="center"
+        src="https://c.tenor.com/LtndJdbW7CQAAAAC/doctor-who.gif"
+        alt="Cyber Dance"
+      />
     </>
   )
 }
