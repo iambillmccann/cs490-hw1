@@ -1,4 +1,3 @@
-import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 
 const SohamshahPage = () => {
@@ -7,13 +6,14 @@ const SohamshahPage = () => {
       <MetaTags title="Sohamshah" description="Sohamshah page" />
 
       <h1>SohamshahPage</h1>
-      <p>
-        Find me in <code>./web/src/pages/SohamshahPage/SohamshahPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>sohamshah</code>, link to me with `
-        <Link to={routes.sohamshah()}>Sohamshah</Link>`
-      </p>
+      <iframe
+        className="center"
+        src="https://giphy.com/embed/xmJO7iLZCcvqo"
+        height="800"
+        width="1000"
+        style={{ border: 'none' }}
+        title="Oops"
+      ></iframe>
     </>
   )
 }
