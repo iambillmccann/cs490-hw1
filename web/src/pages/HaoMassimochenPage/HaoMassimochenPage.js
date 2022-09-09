@@ -6,15 +6,12 @@ const HaoMassimochenPage = () => {
     <>
       <MetaTags title="HaoMassimochen" description="HaoMassimochen page" />
 
-      <h1>HaoMassimochenPage</h1>
-      <p>
-        Find me in{' '}
-        <code>./web/src/pages/HaoMassimochenPage/HaoMassimochenPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>haoMassimochen</code>, link to me with `
-        <Link to={routes.haoMassimochen()}>HaoMassimochen</Link>`
-      </p>
+      <h1>Hao Massimo Chen Page</h1>
+        <iframe src="https://giphy.com/embed/QMHoU66sBXqqLqYvGO"
+        className="center"
+        alt="This is fine">
+        </iframe>
+
     </>
   )
 }
