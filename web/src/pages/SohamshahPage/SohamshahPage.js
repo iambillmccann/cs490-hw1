@@ -7,11 +7,7 @@ const SohamshahPage = () => {
       <MetaTags title="Sohamshah" description="Sohamshah page" />
 
       <h1>SohamshahPage</h1>
-      <iframe
-        className="center"
-        src="https://giphy.com/embed/E69lV4uZfmqpu0S1JA"
-        alt="When class finally ends"
-      />
+      <iframe src="https://giphy.com/embed/xmJO7iLZCcvqo" height="800" width="1000" style="border:none;"></iframe>
     </>
   )
 }
