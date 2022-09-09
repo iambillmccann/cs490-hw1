@@ -9,7 +9,7 @@ const AlonlernerPage = () => {
       <img
         className="center"
         src="https://c.tenor.com/9bjHBEhgzb0AAAAC/when-in-doubt-pinky-out-spongebob.gif"
-        alt="Spongebob rips his pants"
+        alt="Spongebob pinky up"
       />
     </>
   )
