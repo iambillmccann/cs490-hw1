@@ -6,7 +6,7 @@ const ShumsherdhillonPage = () => {
     <>
       <MetaTags title="Shumsherdhillon" description="Shumsherdhillon page" />
 
-      <h1>ShumsherdhillonPage</h1>
+      <h1 class="center">ShumsherdhillonPage, wow</h1>
       
       <img src="https://joncomics.files.wordpress.com/2018/08/pranks.png" alt="The essence of comedy" class="center"></img>
     </>
