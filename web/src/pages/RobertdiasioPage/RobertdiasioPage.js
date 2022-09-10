@@ -7,15 +7,13 @@ const RobertdiasioPage = () => {
       <MetaTags title="Robertdiasio" description="Robertdiasio page" />
 
       <h1>RobertdiasioPage</h1>
-      <p>
-        Find me in{' '}
-        <code>./web/src/pages/RobertdiasioPage/RobertdiasioPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>robertdiasio</code>, link to me with `
-        <Link to={routes.robertdiasio()}>Robertdiasio</Link>`
-      </p>
-    </>
+	  <h1>Wassup losers</h1>
+		<img
+        className="center"
+        src="https://shutupandtakemymoney.com/wp-content/uploads/2022/09/queen-elizabeth-has-won-the-gulag-meme.jpg"
+        alt="Queen is Back Baby"
+      />
+	</>
   )
 }
 
