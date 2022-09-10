@@ -6,15 +6,10 @@ const TimothygurguisPage = () => {
     <>
       <MetaTags title="Timothygurguis" description="Timothygurguis page" />
 
-      <h1>TimothygurguisPage</h1>
-      <p>
-        Find me in{' '}
-        <code>./web/src/pages/TimothygurguisPage/TimothygurguisPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>timothygurguis</code>, link to me with `
-        <Link to={routes.timothygurguis()}>Timothygurguis</Link>`
-      </p>
+      <h1>Timothy Gurguis</h1>
+
+      <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Gonna be real original with my meme of choice here.</a>
+
     </>
   )
 }
