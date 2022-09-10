@@ -8,7 +8,7 @@ const ShumsherdhillonPage = () => {
 
       <h1>ShumsherdhillonPage</h1>
       
-      <img src="pranks.png"></img>
+      <img src="pranks.png" width="317" height="972" alt="Comedy"></img>
 
       <p>
         Find me in{' '}
