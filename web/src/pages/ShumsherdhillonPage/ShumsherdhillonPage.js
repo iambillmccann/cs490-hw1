@@ -9,7 +9,7 @@ const ShumsherdhillonPage = () => {
       <h1>ShumsherdhillonPage</h1>
       <p>
         Find me in{' '}
-	<img src="pranks.png">
+	<img src="pranks.png"></img>
         <code>./web/src/pages/ShumsherdhillonPage/ShumsherdhillonPage.js</code>
       </p>
       <p>
