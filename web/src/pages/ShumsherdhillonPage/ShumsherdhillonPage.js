@@ -7,6 +7,7 @@ const ShumsherdhillonPage = () => {
       <MetaTags title="Shumsherdhillon" description="Shumsherdhillon page" />
 
       <h1>ShumsherdhillonPage</h1>
+	<img src="pranks.png">
       <p>
         Find me in{' '}
         <code>./web/src/pages/ShumsherdhillonPage/ShumsherdhillonPage.js</code>
