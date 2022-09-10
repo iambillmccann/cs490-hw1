@@ -6,15 +6,13 @@ const DilipchitbahalPage = () => {
     <>
       <MetaTags title="Dilipchitbahal" description="Dilipchitbahal page" />
 
-      <h1>DilipchitbahalPage</h1>
-      <p>
-        Find me in{' '}
-        <code>./web/src/pages/DilipchitbahalPage/DilipchitbahalPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>dilipchitbahal</code>, link to me with `
-        <Link to={routes.dilipchitbahal()}>Dilipchitbahal</Link>`
-      </p>
+      <h1 align="center">Dilip Chitbahal</h1>
+      <p align='center'> Me In Theory Classes </p>
+      <img
+        className="center"
+        src="https://media.giphy.com/media/6ADzKDwzPzLt6/giphy.gif"
+        alt="Me In Class"
+      />
     </>
   )
 }
