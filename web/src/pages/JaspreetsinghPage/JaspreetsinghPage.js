@@ -6,15 +6,10 @@ const JaspreetsinghPage = () => {
     <>
       <MetaTags title="Jaspreetsingh" description="Jaspreetsingh page" />
 
-      <h1>JaspreetsinghPage</h1>
-      <p>
-        Find me in{' '}
-        <code>./web/src/pages/JaspreetsinghPage/JaspreetsinghPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>jaspreetsingh</code>, link to me with `
-        <Link to={routes.jaspreetsingh()}>Jaspreetsingh</Link>`
-      </p>
+      <h1>Jaspreetsingh</h1>
+      <img src="https://c.tenor.com/GRFNVdnrVrgAAAAC/win-error-error.gif"
+
+          alt="Error 404 Page Not Found" />
     </>
   )
 }
