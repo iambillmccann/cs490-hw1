@@ -8,16 +8,7 @@ const ShumsherdhillonPage = () => {
 
       <h1>ShumsherdhillonPage</h1>
       
-      <img src="pranks.png" width="317" height="972" alt="Comedy"></img>
-
-      <p>
-        Find me in{' '}
-        <code>./web/src/pages/ShumsherdhillonPage/ShumsherdhillonPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>shumsherdhillon</code>, link to me with
-        `<Link to={routes.shumsherdhillon()}>Shumsherdhillon</Link>`
-      </p>
+      <img src="https://joncomics.files.wordpress.com/2018/08/pranks.png" alt="The essence of comedy" class="center"></img>
     </>
   )
 }
