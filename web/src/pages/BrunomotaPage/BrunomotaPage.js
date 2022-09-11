@@ -1,4 +1,3 @@
-import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 
 const BrunomotaPage = () => {
@@ -8,9 +7,9 @@ const BrunomotaPage = () => {
 
       <h1>BrunomotaPage</h1>
       <img
-      className = "center"
-      src="https://c.tenor.com/AUteKr8hSX0AAAAC/i-said-hey-he-man.gif"
-      alt="And I said HEY!"
+        className="center"
+        src="https://c.tenor.com/AUteKr8hSX0AAAAC/i-said-hey-he-man.gif"
+        alt="And I said HEY!"
       />
     </>
   )
