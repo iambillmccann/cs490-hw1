@@ -4,17 +4,13 @@ import { MetaTags } from '@redwoodjs/web'
 const ThomasbetheaPage = () => {
   return (
     <>
-      <MetaTags title="Thomasbethea" description="Thomasbethea page" />
+      <MetaTags title="Thomas Bethea" description="Tom's Page" />
 
-      <h1>ThomasbetheaPage</h1>
-      <p>
-        Find me in{' '}
-        <code>./web/src/pages/ThomasbetheaPage/ThomasbetheaPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>thomasbethea</code>, link to me with `
-        <Link to={routes.thomasbethea()}>Thomasbethea</Link>`
-      </p>
+      <img
+        className="center"
+        src="https://gfycat.com/ifr/DimPastBonobo"
+        alt="Michael Rosen: Chocolate Cake"
+      />
     </>
   )
 }
