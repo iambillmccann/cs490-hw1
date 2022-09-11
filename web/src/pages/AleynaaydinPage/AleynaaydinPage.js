@@ -15,11 +15,6 @@ const AleynaaydinPage = () => {
         My default route is named <code>aleynaaydin</code>, link to me with `
         <Link to={routes.aleynaaydin()}>Aleynaaydin</Link>`
       </p>
-      <img
-        className="center"
-        src="https://tenor.com/bg1y2.gif"
-        alt="spooky season"
-      />
     </>
   )
 }
