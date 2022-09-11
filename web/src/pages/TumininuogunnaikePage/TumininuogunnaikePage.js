@@ -20,9 +20,14 @@ const TumininuogunnaikePage = () => {
         My default route is named <code>tumininuogunnaike</code>, link to me
         with `<Link to={routes.tumininuogunnaike()}>Tumininuogunnaike</Link>`
       </p>
+      <img
+        className="center"
+        src="https://giphy.com/gifs/looneytunesworldofmayhem-world-of-mayhem-looney-tunes-ltwom-RbDKaczqWovIugyJmW/fullscreen"
+        alt="coding in progress!"
+      />
     </>
   )
 }
 
 export default TumininuogunnaikePage
-//I was able to edit this file 
+//I was able to edit this file
