@@ -5,23 +5,13 @@ const SakthivelanmanikanthanPage = () => {
   return (
     <>
       <MetaTags
-        title="Sakthivelanmanikanthan"
-        description="Sakthivelanmanikanthan page"
-      />
+        title="Sakthivelanmanikanthan" description="Sakthivelanmanikanthan page" />
 
-      <h1>SakthivelanmanikanthanPage</h1>
-      <p>
-        Find me in{' '}
-        <code>
-          ./web/src/pages/SakthivelanmanikanthanPage/SakthivelanmanikanthanPage.js
-        </code>
-      </p>
-      <p>
-        My default route is named <code>sakthivelanmanikanthan</code>, link to
-        me with `
-        <Link to={routes.sakthivelanmanikanthan()}>Sakthivelanmanikanthan</Link>
-        `
-      </p>
+      <img
+	className="center"
+	src="https://media.giphy.com/media/jUwpNzg9IcyrK/giphy.gif"
+	alt="Nope"
+      />
     </>
   )
 }
