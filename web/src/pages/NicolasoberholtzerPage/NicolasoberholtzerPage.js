@@ -10,16 +10,11 @@ const NicolasoberholtzerPage = () => {
       />
 
       <h1>NicolasoberholtzerPage</h1>
-      <p>
-        Find me in{' '}
-        <code>
-          ./web/src/pages/NicolasoberholtzerPage/NicolasoberholtzerPage.js
-        </code>
-      </p>
-      <p>
-        My default route is named <code>nicolasoberholtzer</code>, link to me
-        with `<Link to={routes.nicolasoberholtzer()}>Nicolasoberholtzer</Link>`
-      </p>
+      <img
+        className="center"
+        src="https://i.redd.it/1xkrlna6cnr21.png"
+        alt="Praise the Omnissiah"
+      />
     </>
   )
 }
