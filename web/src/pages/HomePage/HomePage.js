@@ -105,6 +105,8 @@ const HomePage = () => {
           <br />
           <Link to={routes.tumininuogunnaike()}>Tumininu Ogunnaike</Link>
           <br />
+          <Link to={routes.harshilkumarkikani()}>Harshilkumar Kikani</Link>
+          <br />
         </p>
       </div>
     </>
