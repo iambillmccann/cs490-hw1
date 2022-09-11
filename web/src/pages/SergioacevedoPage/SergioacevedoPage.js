@@ -1,24 +1,11 @@
-import { Link, routes } from '@redwoodjs/router'
+import { UrlField } from '@redwoodjs/forms'
+import { Link, Redirect, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
-// function setup(){
-//   loadImage('image.jpg')
-// }
 
 const SergioacevedoPage = () => {
   return (
     <>
-      <MetaTags title="Sergioacevedo" description="Sergioacevedo page" />
-
-      {/* <h1>SergioacevedoPage</h1> */}
-      <p>
-      <img src="image.jpg" alt="hola"/>
-        {/* Find me in{' '}
-        <code>./web/src/pages/SergioacevedoPage/SergioacevedoPage.js</code> */}
-      </p>
-      {/* <p>
-        My default route is named <code>sergioacevedo</code>, link to me with `
-        <Link to={routes.sergioacevedo()}>Sergioacevedo</Link>`
-      </p> */}
+      <img  src="https://img.ifunny.co/images/6e502c3d9f9c10d9d2a7ef7e3fd6283396ff024ecd0b7015521f00e093ab398b_1.webp" alt='neofetch'/>
     </>
   )
 }
