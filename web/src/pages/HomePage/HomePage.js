@@ -103,6 +103,8 @@ const HomePage = () => {
           <br />
           <Link to={routes.vrajshah()}>Vraj Shah</Link>
           <br />
+          <Link to={routes.tumininuogunnaike()}>Tumininu Ogunnaike</Link>
+          <br />
         </p>
       </div>
     </>

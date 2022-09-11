@@ -6,6 +6,7 @@ const Routes = () => {
   return (
     <Router>
       <Set wrap={Hw1Layout}>
+        <Route path="/tumininuogunnaike" page={TumininuogunnaikePage} name="tumininuogunnaike" />
         <Route path="/vrajshah" page={VrajshahPage} name="vrajshah" />
         <Route path="/michaelwong" page={MichaelwongPage} name="michaelwong" />
         <Route path="/johannwinter" page={JohannwinterPage} name="johannwinter" />
