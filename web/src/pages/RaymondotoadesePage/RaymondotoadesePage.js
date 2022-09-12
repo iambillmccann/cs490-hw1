@@ -6,15 +6,16 @@ const RaymondotoadesePage = () => {
     <>
       <MetaTags title="Raymondotoadese" description="Raymondotoadese page" />
 
-      <h1>RaymondotoadesePage</h1>
+      <h1>Raymond Otoadese</h1>
+      
+      
       <p>
-        Find me in{' '}
-        <code>./web/src/pages/RaymondotoadesePage/RaymondotoadesePage.js</code>
+        <Link to={routes.raymondotoadese()}>Raymondotoadese</Link>`
       </p>
-      <p>
-        My default route is named <code>raymondotoadese</code>, link to me with
-        `<Link to={routes.raymondotoadese()}>Raymondotoadese</Link>`
-      </p>
+
+      <img  class="center" src='https://i.gifer.com/3Kk0.gif' >
+      </img>
+      
     </>
   )
 }
