@@ -8,7 +8,7 @@ const NeerajseedaniPage = () => {
 
       <img
         className="center"
-        src="https://giphy.com/explore/monkey-puppet"
+        src="https://c.tenor.com/gaEpIfzxzPEAAAAM/pedro-monkey-puppet.gif"
         alt="Monkey Puppet Meme"
       />
 
