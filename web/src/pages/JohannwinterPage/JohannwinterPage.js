@@ -15,6 +15,7 @@ const JohannwinterPage = () => {
         My default route is named <code>johannwinter</code>, link to me with `
         <Link to={routes.johannwinter()}>Johannwinter</Link>`
       </p>
+      <img src="https://media1.giphy.com/media/SqGzDP3l5NNQY/giphy.gif"/>
     </>
   )
 }

@@ -21,7 +21,6 @@ const Routes = () => {
         <Route path="/villairepierre" page={VillairepierrePage} name="villairepierre" />
         <Route path="/rajpatel" page={RajpatelPage} name="rajpatel" />
         <Route path="/purabpatel" page={PurabpatelPage} name="purabpatel" />
-        <Route path="/dhyeypatel" page={DhyeypatelPage} name="dhyeypatel" />
         <Route path="/raymondotoadese" page={RaymondotoadesePage} name="raymondotoadese" />
         <Route path="/nicolasoberholtzer" page={NicolasoberholtzerPage} name="nicolasoberholtzer" />
         <Route path="/zacharymull" page={ZacharymullPage} name="zacharymull" />
@@ -36,7 +35,6 @@ const Routes = () => {
         <Route path="/timothygurguis" page={TimothygurguisPage} name="timothygurguis" />
         <Route path="/evelyngarcia-mendoza" page={EvelyngarciaMendozaPage} name="evelyngarciamendoza" />
         <Route path="/alecgarbely" page={AlecgarbelyPage} name="alecgarbely" />
-        <Route path="/andrewfouad" page={AndrewfouadPage} name="andrewfouad" />
         <Route path="/anthonyfarro" page={AnthonyfarroPage} name="anthonyfarro" />
         <Route path="/edendubrovsky" page={EdendubrovskyPage} name="edendubrovsky" />
         <Route path="/willisdo" page={WillisdoPage} name="willisdo" />
