@@ -6,15 +6,11 @@ const MelvinacademiaPage = () => {
     <>
       <MetaTags title="Melvinacademia" description="Melvinacademia page" />
 
-      <h1>MelvinacademiaPage</h1>
-      <p>
-        Find me in{' '}
-        <code>./web/src/pages/MelvinacademiaPage/MelvinacademiaPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>melvinacademia</code>, link to me with `
-        <Link to={routes.melvinacademia()}>Melvinacademia</Link>`
-      </p>
+      <img
+        className="center"
+        src="https://i.kym-cdn.com/photos/images/original/001/809/295/3d5.jpg"
+        alt="Patrick nails board to his head"
+      />
     </>
   )
 }
