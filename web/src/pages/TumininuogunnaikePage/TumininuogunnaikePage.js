@@ -22,7 +22,7 @@ const TumininuogunnaikePage = () => {
       </p>
       <img
         className="center"
-        src="https://giphy.com/gifs/looneytunesworldofmayhem-world-of-mayhem-looney-tunes-ltwom-RbDKaczqWovIugyJmW/fullscreen"
+        src="https://bestanimations.com/media/computers/78704119funny-homer-computer-animated-gif-38.gif"
         alt="coding in progress!"
       />
     </>
