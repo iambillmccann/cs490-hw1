@@ -40,8 +40,6 @@ const HomePage = () => {
           <br />
           <Link to={routes.anthonyfarro()}>Anthony Farro</Link>
           <br />
-          <Link to={routes.andrewfouad()}>Andrew Fouad</Link>
-          <br />
           <Link to={routes.alecgarbely()}>Alec Garbely</Link>
           <br />
           <Link to={routes.evelyngarciamendoza()}>Evelyn Garcia-Mendoza</Link>
@@ -71,8 +69,6 @@ const HomePage = () => {
           <Link to={routes.nicolasoberholtzer()}>Nicolas Oberholtzer</Link>
           <br />
           <Link to={routes.raymondotoadese()}>Raymond Otoadese</Link>
-          <br />
-          <Link to={routes.dhyeypatel()}>Dhyey Patel</Link>
           <br />
           <Link to={routes.purabpatel()}>Purab Patel</Link>
           <br />

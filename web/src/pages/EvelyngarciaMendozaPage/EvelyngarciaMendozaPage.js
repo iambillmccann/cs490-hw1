@@ -18,8 +18,8 @@ const EvelyngarciaMendozaPage = () => {
       </p>
       <p>
         My default route is named <code>evelyngarciaMendoza</code>, link to me
-        with `<Link to={routes.evelyngarciaMendoza()}>EvelyngarciaMendoza</Link>
-        `
+        with `
+        <Link to={routes.evelyngarciamendoza()}>Evelyn Garcia-Mendoza</Link>`
       </p>
     </>
   )
