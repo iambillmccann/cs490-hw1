@@ -15,6 +15,7 @@ const MichaelwongPage = () => {
         My default route is named <code>michaelwong</code>, link to me with `
         <Link to={routes.michaelwong()}>Michaelwong</Link>`
       </p>
+      <img src="https://media.giphy.com/media/v6aOjy0Qo1fIA/giphy.gif"></img>
     </>
   )
 }
