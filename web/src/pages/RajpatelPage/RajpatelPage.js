@@ -1,21 +1,15 @@
 import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 
-const RajpatelPage = () => {
+const RajPatelPage = () => {
   return (
     <>
-      <MetaTags title="Rajpatel" description="Rajpatel page" />
+      <MetaTags title="RajPatel" description="RajPatel page" />
 
-      <h1>RajpatelPage</h1>
-      <p>
-        Find me in <code>./web/src/pages/RajpatelPage/RajpatelPage.js</code>
-      </p>
-      <p>
-        My default route is named <code>rajpatel</code>, link to me with `
-        <Link to={routes.rajpatel()}>Rajpatel</Link>`
-      </p>
+      <h1>RajPatelPage</h1>
+      <img src="https://i.redd.it/ocg83yz0dfx41.jpg" alt="Patrick"/>
     </>
   )
 }
 
-export default RajpatelPage
+export default RajPatelPage
