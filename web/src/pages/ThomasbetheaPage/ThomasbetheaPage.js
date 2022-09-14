@@ -8,7 +8,7 @@ const ThomasbetheaPage = () => {
 
       <img
         className="center"
-        src="https://gfycat.com/ifr/DimPastBonobo"
+        <iframe src='https://gfycat.com/ifr/DimPastBonobo' frameborder='0' scrolling='no' allowfullscreen width='640' height='404'></iframe>
         alt="Michael Rosen: Chocolate Cake"
       />
     </>
