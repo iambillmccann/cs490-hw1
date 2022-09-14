@@ -14,6 +14,7 @@ const PurabpatelPage = () => {
         My default route is named <code>purabpatel</code>, link to me with `
         <Link to={routes.purabpatel()}>Purabpatel</Link>`
       </p>
+      <p>This is my change to my JavaScript File</p>
     </>
   )
 }

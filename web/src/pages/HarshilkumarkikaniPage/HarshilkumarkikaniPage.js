@@ -1,4 +1,3 @@
-import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 
 const HarshilkumarkikaniPage = () => {
@@ -9,17 +8,13 @@ const HarshilkumarkikaniPage = () => {
         description="Harshilkumarkikani page"
       />
 
-      <h1>HarshilkumarkikaniPage</h1>
-      <p>
-        Find me in{' '}
-        <code>
-          ./web/src/pages/HarshilkumarkikaniPage/HarshilkumarkikaniPage.js
-        </code>
-      </p>
-      <p>
-        My default route is named <code>harshilkumarkikani</code>, link to me
-        with `<Link to={routes.harshilkumarkikani()}>Harshilkumarkikani</Link>`
-      </p>
+      <h1>Harsh&apos; Favorite Meme</h1>
+      <p> CRAB RAVE </p>
+      <img
+        className="center"
+        src="https://c.tenor.com/7Pz0ngJtK24AAAAd/crabs-dancing.gif"
+        alt="Crabs Dancing on the Beach (Crab Rave meme)"
+      />
     </>
   )
 }

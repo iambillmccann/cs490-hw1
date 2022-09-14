@@ -20,8 +20,14 @@ const TumininuogunnaikePage = () => {
         My default route is named <code>tumininuogunnaike</code>, link to me
         with `<Link to={routes.tumininuogunnaike()}>Tumininuogunnaike</Link>`
       </p>
+      <img
+        className="center"
+        src="https://bestanimations.com/media/computers/78704119funny-homer-computer-animated-gif-38.gif"
+        alt="coding in progress!"
+      />
     </>
   )
 }
 
 export default TumininuogunnaikePage
+//I was able to edit this file

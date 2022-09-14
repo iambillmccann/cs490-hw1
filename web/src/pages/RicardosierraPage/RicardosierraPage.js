@@ -8,7 +8,7 @@ const RicardosierraPage = () => {
 
       <h1>RicardosierraPage</h1>
       <p>
-        Find me in{' '}
+        Find me in{'HELLO I AM RICARDOO!!!'}
         <code>./web/src/pages/RicardosierraPage/RicardosierraPage.js</code>
       </p>
       <p>
