@@ -1,23 +1,16 @@
-import { Link, routes } from '@redwoodjs/router'
+import { Box } from '@chakra-ui/react'
+
+import Banner from 'src/components/Banner/Banner'
 
 const Hw1Layout = ({ children }) => {
   return (
     <>
-      <div className="basicContent">
-        <header>
-          <h1>
-            <Link to={routes.home()}>CS 490 Homework #1</Link>
-          </h1>
-          <nav>
-            <ul>
-              <li>
-                <Link to={routes.home()}>Home</Link>
-              </li>
-            </ul>
-          </nav>
-        </header>
-        <main className="basicContent">{children}</main>
-      </div>
+      <Banner />
+      <Box m={25}>
+        <main className="max-w-4xl mx-auto p-12 bg-white shadow rounded-b">
+          {children}
+        </main>
+      </Box>
     </>
   )
 }
