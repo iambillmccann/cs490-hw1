@@ -13,5 +13,12 @@ fileSystem.readdirSync(folder).forEach((file) => {
   console.log(file, fullPath, stat)
 })
 
+const folders = fileSystem.readdirSync(folder).filter((e) => {
+  const fullPath = utilities.format('%s%s', folder, e)
+  return fileSystem.statSync(fullPath).isDirectory()
+})
+
+console.log(folders)
+
 console.log('End')
 console.log('=============================================')
