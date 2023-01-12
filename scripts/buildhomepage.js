@@ -53,5 +53,16 @@ const links = folders.map((item) => {
 const newPage = [...startSlice, ...links, ...endSlice]
 console.log(newPage)
 
+// Step 6. Write the file back out
+
+const newHomePage = fileSystem.createWriteStream(homePage)
+newHomePage.on('error', (err) => {
+  console.log(err)
+})
+newPage.forEach(function (item) {
+  newHomePage.write(item + '\n')
+})
+newHomePage.end()
+
 console.log('End')
 console.log('=============================================')

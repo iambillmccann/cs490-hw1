@@ -10,7 +10,7 @@ const HomePage = () => {
       <Box>
         <Text>
           {/* Start */}
-          <Link to={routes.billmccann()}>Bill McCann</Link>
+          <Link to={routes.billmccann()}>billmccann</Link>
           {/* End */}
         </Text>
       </Box>
