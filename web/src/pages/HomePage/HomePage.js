@@ -9,8 +9,9 @@ const HomePage = () => {
       <MetaTags title="Home" description="Home page" />
       <Box>
         <Text>
-          <Link to={routes.billmccann()}>Bill McCann</Link> (use
-          ./web/src/pages/BillmccannPage.js as an example )
+          {/* Start */}
+          <Link to={routes.billmccann()}>Bill McCann</Link>
+          {/* End */}
         </Text>
       </Box>
     </>
