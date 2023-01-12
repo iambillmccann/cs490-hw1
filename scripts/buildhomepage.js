@@ -1,0 +1,6 @@
+console.log('=============================================')
+console.log('Script: buildhomepage.js')
+console.log('---------------------------------------------')
+console.log('Start')
+console.log('End')
+console.log('=============================================')
