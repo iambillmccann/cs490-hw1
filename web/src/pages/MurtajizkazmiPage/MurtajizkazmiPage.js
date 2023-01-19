@@ -4,27 +4,27 @@ import { MetaTags } from '@redwoodjs/web'
 
 const MurtajizkazmiPage = () => {
   return (
-  <box>
-  <MetaTags title="Murtajizkazmi" description="Murtajizkazmi page" />
-  <Center>
-  <TableContainer width={400} border={'2px'}>
-  <Table variant="striped">
-  <Tbody>
-    <Tr>
-    <Td fontWeight={'medium'}>My Name:</Td>
-      <Td>Murtajiz Kazmi</Td>
-      </Tr>
-      <Tr>
-      <Td fontWeight={'medium'}>My GitHub Id:</Td>
-      <Td>mhk37</Td>
-      </Tr>
-      <Tr>
-      <Td fontWeight={'medium'}>My Discord Id:</Td>
-      <Td>mur</Td>
-      </Tr>
-      </Tbody>
-      </Table>
-      </TableContainer>
+    <box>
+      <MetaTags title="Murtajizkazmi" description="Murtajizkazmi page" />
+      <Center>
+        <TableContainer width={400} border={'2px'}>
+          <Table variant="striped">
+            <Tbody>
+              <Tr>
+                <Td fontWeight={'medium'}>My Name:</Td>
+                <Td>Murtajiz Kazmi</Td>
+              </Tr>
+              <Tr>
+                <Td fontWeight={'medium'}>My GitHub Id:</Td>
+                <Td>mhk37</Td>
+              </Tr>
+              <Tr>
+                <Td fontWeight={'medium'}>My Discord Id:</Td>
+                <Td>mur</Td>
+              </Tr>
+            </Tbody>
+          </Table>
+        </TableContainer>
       </Center>
       <br />
       <Center>
