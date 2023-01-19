@@ -14,7 +14,7 @@ const SakethLakshmananPage = () => {
   return (
     <Box>
       <MetaTags title="Saketh Lakshmanan" description="Saketh's page" />
-      <screenLeft>
+      <Center>
         <TableContainer width={600} border={'3px'}>
           <Table variant="simple">
             <Tbody>
@@ -33,14 +33,14 @@ const SakethLakshmananPage = () => {
             </Tbody>
           </Table>
         </TableContainer>
-      </screenLeft>
+      </Center>
       <br />
-      <screenLeft>
+      <Center>
         <img
           src="https://gifdb.com/images/high/naruto-your-bestfriend-meme-znd7k18lr3pu80m2.webp"
           alt="Naruto wants to be your bestfriend"
         />
-      </screenLeft>
+      </Center>
     </Box>
   )
 }
