@@ -10,6 +10,11 @@ const Routes = () => {
         <Route path="/" page={HomePage} name="home" />
         <Route path="/home" page={HomePage} name="home" />
       </Set>
+      <Set wrap={Hw1Layout}>
+        <Route path="/casey" page={CaseyPage} name="casey" />
+        <Route path="/" page={HomePage} name="home" />
+        <Route path="/home" page={HomePage} name="home" />
+      </Set>
       <Route notfound page={NotFoundPage} />
     </Router>
   )

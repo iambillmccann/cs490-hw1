@@ -13,6 +13,11 @@ const HomePage = () => {
           <Link to={routes.billmccann()}>billmccann</Link>
           {/* End */}
         </Text>
+        <Text>
+          {/* Start */}
+          <Link to={routes.casey()}>casey</Link>
+          {/* End */}
+        </Text>
       </Box>
     </>
   )
