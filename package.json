@@ -23,6 +23,7 @@
   },
   "packageManager": "yarn@3.2.1",
   "dependencies": {
+    "styled-components": "^5.3.6",
     "yarn": "^1.22.19"
   }
 }
