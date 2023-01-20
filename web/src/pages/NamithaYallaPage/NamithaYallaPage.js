@@ -1,9 +1,14 @@
 import { TableContainer, Table, Tr, Td, Tbody, Center } from '@chakra-ui/react'
+
 import { MetaTags } from '@redwoodjs/web'
+
+import Banner from 'src/components/Banner/Banner'
 
 const NamithaYallaPage = () => {
   return (
     <box>
+      <Banner />
+      <br></br>
       <MetaTags title="Namitha Yalla" description="Nemo's page" />
       <Center>
         <TableContainer width={480} border={'2px'}>
