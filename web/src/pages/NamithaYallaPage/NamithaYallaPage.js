@@ -1,4 +1,4 @@
-import { Link, routes } from '@redwoodjs/router'
+import { TableContainer, Table, Tr, Td, Tbody, Center } from '@chakra-ui/react'
 import { MetaTags } from '@redwoodjs/web'
 
 const NamithaYallaPage = () => {
@@ -6,7 +6,7 @@ const NamithaYallaPage = () => {
     <box>
       <MetaTags title="Namitha Yalla" description="Nemo's page" />
       <Center>
-        <TableContainer width={480} border={'1px'}>
+        <TableContainer width={480} border={'2px'}>
           <Table variant="simple">
             <Tbody>
               <Tr>
@@ -28,7 +28,7 @@ const NamithaYallaPage = () => {
       <br />
       <Center>
         <img
-          src="https://tenor.com/bHDTo.gif"
+          src="https://media.tenor.com/CWgfFh7ozHkAAAAC/rick-astly-rick-rolled.gif"
           alt="You just got rick rolled."
         />
       </Center>
