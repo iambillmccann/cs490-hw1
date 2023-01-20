@@ -11,6 +11,7 @@ const HomePage = () => {
         <Text>
           {/* Start */}
           <Link to={routes.billmccann()}>billmccann</Link>
+          <Link to={routes.nemo()}>namithayalla</Link>
           {/* End */}
         </Text>
       </Box>
