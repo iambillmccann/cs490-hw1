@@ -5,3 +5,4 @@ export const generated = (args) => {
 }
 
 export default { title: 'Pages/JemilSrejicPage' }
+//new page jemil srejic

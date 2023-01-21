@@ -17,3 +17,4 @@ const JemilLayout = ({ children }) =>
   )
 }
 export default JemilLayout
+//new layout jemil srejic

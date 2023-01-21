@@ -12,10 +12,11 @@ const Routes = () => {
       </Set>
        <Set wrap={JemilLayout}>
         <Route path="/jemil-srejic" page={JemilSrejicPage} name="jemil-srejic" />
+
       </Set>
       <Route notfound page={NotFoundPage} />
     </Router>
   )
-}
+} //added route jemil srejic
 
 export default Routes
