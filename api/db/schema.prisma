@@ -8,9 +8,8 @@ generator client {
   binaryTargets = "native"
 }
 
-model Post {
-  id        Int      @id @default(autoincrement())
-  title     String
-  body      String
-  createdAt DateTime @default(now())
+model UserExample {
+  id    Int     @id @default(autoincrement())
+  email String  @unique
+  name  String?
 }
