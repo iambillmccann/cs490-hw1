@@ -7,8 +7,6 @@ import Banner from 'src/components/Banner/Banner'
 const NamithaYallaPage = () => {
   return (
     <box>
-      <Banner />
-      <br></br>
       <MetaTags title="Namitha Yalla" description="Nemo's page" />
       <Center>
         <TableContainer width={480} border={'2px'}>
