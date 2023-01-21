@@ -23,6 +23,10 @@
   },
   "packageManager": "yarn@3.2.1",
   "dependencies": {
+    "@chakra-ui/react": "^2.4.9",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^8.5.0",
     "yarn": "^1.22.19"
   }
 }
