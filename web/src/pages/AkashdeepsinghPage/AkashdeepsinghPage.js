@@ -1,4 +1,4 @@
-import { TableContainer, Table, Tr, Td, Tbody, Center, Fade, ScaleFade, Slide, SlideFade, background } from '@chakra-ui/react'
+import { TableContainer, Table, Tr, Td, Tbody, Center } from '@chakra-ui/react'
 import { Link, routes } from '@redwoodjs/router'
 import { MetaTags } from '@redwoodjs/web'
 
