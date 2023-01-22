@@ -11,21 +11,15 @@ const ManthanpatelPage = () => {
           <Table variant="striped" colorScheme="gray">
             <Tbody>
               <Tr>
-                <Td fontWeight={'bolder'} color="Highlight">
-                  My Name:
-                </Td>
+                <Td fontWeight={'bolder'}>My Name:</Td>
                 <Td>Manthan Patel</Td>
               </Tr>
               <Tr>
-                <Td fontWeight={'bold'} color="Highlight">
-                  My GitHub Id:
-                </Td>
+                <Td fontWeight={'bold'}>My GitHub Id:</Td>
                 <Td>manthan2905</Td>
               </Tr>
               <Tr>
-                <Td fontWeight={'bold'} color="Highlight">
-                  My Discord Id:
-                </Td>
+                <Td fontWeight={'bold'}>My Discord Id:</Td>
                 <Td>anonymoususer</Td>
               </Tr>
             </Tbody>
