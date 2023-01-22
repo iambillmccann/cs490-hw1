@@ -29,7 +29,7 @@ const JillianjacintoPage = () => {
       <br />
       <Center>
         <img
-          src="https://tenor.com/view/bloons-btd6-btd-bloon-balloons-gif-20551051"
+          src="https://media.tenor.com/kChVtQVrWXQAAAAC/bloons-btd6.gif"
           alt="turning into monkey"
         />
       </Center>
