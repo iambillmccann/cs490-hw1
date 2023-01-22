@@ -1,12 +1,13 @@
 import { Router, Route, Set } from '@redwoodjs/router'
 
 import Hw1Layout from './layouts/Hw1Layout/Hw1Layout'
+import GabrielaAcevedoPage from './pages/GabrielaAcevedoPage/GabrielaAcevedoPage'
 
 const Routes = () => {
   return (
     <Router>
-      <Route path="/ga288" page={Ga288Page} name="ga288" />
       <Set wrap={Hw1Layout}>
+        <Route path="/ga288" page={GabrielaAcevedoPage} name="ga288" />
         <Route path="/deanna-mostafa" page={DeannaMostafaPage} name="deannaMostafa" />
         <Route path="/ritikasuresh" page={RitikasureshPage} name="ritikasuresh" />
         <Route path="/saketh-lakshmanan" page={SakethLakshmananPage} name="sakethLakshmanan" />
