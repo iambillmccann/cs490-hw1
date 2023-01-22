@@ -4,13 +4,14 @@ import Hw1Layout from './layouts/Hw1Layout/Hw1Layout'
 
 const Routes = () => {
   return (
-    <Router>
+    <Router>      
       <Set wrap={Hw1Layout}>
         <Route path="/deanna-mostafa" page={DeannaMostafaPage} name="deannaMostafa" />
         <Route path="/ritikasuresh" page={RitikasureshPage} name="ritikasuresh" />
         <Route path="/saketh-lakshmanan" page={SakethLakshmananPage} name="sakethLakshmanan" />
         <Route path="/safiullah-baig" page={SafiullahBaigPage} name="safiullahBaig" />
         <Route path="/saivedagiri" page={SaivedagiriPage} name="saivedagiri" />
+        <Route path="/tom-ehrola" page={TomEhrolaPage} name="tomEhrola" />
         <Route path="/jaspreetsingh" page={JaspreetSinghPage} name="jaspreetsingh" />
         <Route path="/keyadhruve" page={KeyadhruvePage} name="keyadhruve" />
         <Route path="/crismolina" page={CrismolinaPage} name="crismolina" />
@@ -18,7 +19,7 @@ const Routes = () => {
         <Route path="/arijqureshi" page={ArijqureshiPage} name="arijqureshi" />
         <Route path="/" page={HomePage} name="home" />
         <Route path="/home" page={HomePage} name="home" />
-      </Set>
+      </Set>      
       <Route notfound page={NotFoundPage} />
     </Router>
   )
