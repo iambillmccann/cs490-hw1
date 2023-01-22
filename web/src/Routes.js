@@ -1,7 +1,5 @@
 import { Router, Route, Set } from '@redwoodjs/router'
 
-import PostsLayout from 'src/layouts/PostsLayout'
-
 import Hw1Layout from './layouts/Hw1Layout/Hw1Layout'
 
 const Routes = () => {
