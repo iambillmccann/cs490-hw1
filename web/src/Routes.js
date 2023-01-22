@@ -9,6 +9,7 @@ const Routes = () => {
         <Route path="/billmccann" page={BillmccannPage} name="billmccann" />
         <Route path="/" page={HomePage} name="home" />
         <Route path="/home" page={HomePage} name="home" />
+        <Route path="/neelpatil" page={NeelpatilPage} name="neelpatil" />
       </Set>
       <Route notfound page={NotFoundPage} />
     </Router>
