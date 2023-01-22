@@ -11,15 +11,15 @@ const SeanUlepPage = () => {
           <Table variant="simple">
             <Tbody>
               <Tr>
-                <Td fontWeight={'heavy'}>My Name:</Td>
+                <Td fontWeight={'bolder'}>My Name:</Td>
                 <Td>Sean Ulep</Td>
               </Tr>
               <Tr>
-                <Td fontWeight={'heavy'}>My GitHub Id:</Td>
+                <Td fontWeight={'bolder'}>My GitHub Id:</Td>
                 <Td>SeanUlep</Td>
               </Tr>
               <Tr>
-                <Td fontWeight={'heavy'}>My Discord Id:</Td>
+                <Td fontWeight={'bolder'}>My Discord Id:</Td>
                 <Td>Shaun_Tulip or su25 (server username)</Td>
               </Tr>
             </Tbody>
@@ -27,6 +27,7 @@ const SeanUlepPage = () => {
         </TableContainer>
       </Center>
       <br />
+
       <Center>
         <img
           src="https://media.giphy.com/media/u5GxLmudnA8vK/giphy.gif"
