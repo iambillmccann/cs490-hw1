@@ -14,6 +14,14 @@ const Routes = () => {
         <Route path="/posts" page={PostPostsPage} name="posts" />
       </Set>
       <Set wrap={Hw1Layout}>
+        <Route path="/deanna-mostafa" page={DeannaMostafaPage} name="deannaMostafa" />
+        <Route path="/ritikasuresh" page={RitikasureshPage} name="ritikasuresh" />
+        <Route path="/saketh-lakshmanan" page={SakethLakshmananPage} name="sakethLakshmanan" />
+        <Route path="/safiullah-baig" page={SafiullahBaigPage} name="safiullahBaig" />
+        <Route path="/saivedagiri" page={SaivedagiriPage} name="saivedagiri" />
+        <Route path="/jaspreetsingh" page={JaspreetSinghPage} name="jaspreetsingh" />
+        <Route path="/keyadhruve" page={KeyadhruvePage} name="keyadhruve" />
+        <Route path="/crismolina" page={CrismolinaPage} name="crismolina" />
         <Route path="/billmccann" page={BillmccannPage} name="billmccann" />
         <Route path="/manthanpatel" page={ManthanpatelPage} name="manthanpatel" />
         <Route path="/" page={HomePage} name="home" />
