@@ -2,8 +2,6 @@ import { TableContainer, Table, Tr, Td, Tbody, Center } from '@chakra-ui/react'
 
 import { MetaTags } from '@redwoodjs/web'
 
-import Banner from 'src/components/Banner/Banner'
-
 const NamithaYallaPage = () => {
   return (
     <box>
