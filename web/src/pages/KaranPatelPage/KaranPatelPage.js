@@ -2,7 +2,7 @@ import { TableContainer, Table, Tr, Td, Tbody, Center } from '@chakra-ui/react'
 
 import { MetaTags } from '@redwoodjs/web'
 
-const KaranpatelPage = () => {
+const KaranPage = () => {
   return (
     <box>
       <MetaTags title="Karan Patel" description="Karan's page" />
@@ -11,15 +11,15 @@ const KaranpatelPage = () => {
           <Table variant="simple">
             <Tbody>
               <Tr>
-                <Td fontWeight={'italic'}>My Name:</Td>
+                <Td fontWeight={'bold'}>My Name:</Td>
                 <Td>Karan Patel</Td>
               </Tr>
               <Tr>
-                <Td fontWeight={'italic'}>My GitHub Id:</Td>
+                <Td fontWeight={'bold'}>My GitHub Id:</Td>
                 <Td>karanpatel2002</Td>
               </Tr>
               <Tr>
-                <Td fontWeight={'italic'}>My Discord Id:</Td>
+                <Td fontWeight={'bold'}>My Discord Id:</Td>
                 <Td>Karan</Td>
               </Tr>
             </Tbody>
