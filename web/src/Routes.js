@@ -26,6 +26,7 @@ const Routes = () => {
         <Route path="/jaspreetsingh" page={JaspreetSinghPage} name="jaspreetsingh" />
         <Route path="/keyadhruve" page={KeyadhruvePage} name="keyadhruve" />
         <Route path="/crismolina" page={CrismolinaPage} name="crismolina" />
+        <Route path="/shriya-shah" page={ShriyaShahPage} name="shriyaShah" />
         <Route path="/billmccann" page={BillmccannPage} name="billmccann" />
         <Route path="/arijqureshi" page={ArijqureshiPage} name="arijqureshi" />
         <Route path="/jillianjacinto" page={JillianjacintoPage} name="jillianjacinto" />
