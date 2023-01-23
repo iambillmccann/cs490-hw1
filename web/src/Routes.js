@@ -5,7 +5,6 @@ import Hw1Layout from './layouts/Hw1Layout/Hw1Layout'
 const Routes = () => {
   return (
     <Router>
-
       <Set wrap={Hw1Layout}>
         <Route path="/mvd29" page={Mvd29Page} name="mvd29" />
         <Route path="/billmccann" page={BillmccannPage} name="billmccann" />
