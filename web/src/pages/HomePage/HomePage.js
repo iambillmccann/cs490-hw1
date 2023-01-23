@@ -13,7 +13,7 @@ const HomePage = () => {
           <Link to={routes.arijqureshi()}>arijqureshi</Link>
           <br />
           <Link to={routes.billmccann()}>billmccann</Link>
-          <br>
+          <br />
           <Link to={routes.manthanpatel()}>manthanpatel</Link>
           <br />
           <Link to={routes.crismolina()}>crismolina</Link>
@@ -43,6 +43,8 @@ const HomePage = () => {
           <Link to={routes.saivedagiri()}>saivedagiri</Link>
           <br />
           <Link to={routes.sakethlakshmanan()}>sakethlakshmanan</Link>
+          <br />
+          <Link to={routes.manthanpatel()}>manthanpatel</Link>
           <br />
           {/* End */}
         </Text>
