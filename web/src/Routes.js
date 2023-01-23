@@ -7,10 +7,10 @@ import Hw1Layout from './layouts/Hw1Layout/Hw1Layout'
 const Routes = () => {
   return (
     <Router>
-      <Route path="/gabrielpascual" page={GabrielpascualPage} name="gabrielpascual" />
       <Set wrap={Hw1Layout}>
+        <Route path="/gabrielpascual" page={GabrielpascualPage} name="gabrielpascual" />
         <Route path="/mehakmaqsood" page={MehakmaqsoodPage} name="mehakmaqsood" />
-      <Route path="/mateamilloshi" page={MateamilloshiPage} name="mateamilloshi" />
+        <Route path="/mateamilloshi" page={MateamilloshiPage} name="mateamilloshi" />
         <Route path="/pedropacheco" page={PedropachecoPage} name="pedropacheco" />
         <Route path="/erik-chodaba" page={ErikChodabaPage} name="erikChodaba" />
         <Route path="/nehashirwalker" page={NehashirwalkerPage} name="nehashirwalker" />
@@ -24,6 +24,8 @@ const Routes = () => {
         <Route path="/crismolina" page={CrismolinaPage} name="crismolina" />
         <Route path="/billmccann" page={BillmccannPage} name="billmccann" />
         <Route path="/manthanpatel" page={ManthanpatelPage} name="manthanpatel" />
+        <Route path="/arijqureshi" page={ArijqureshiPage} name="arijqureshi" />
+        <Route path="/jillianjacinto" page={JillianjacintoPage} name="jillianjacinto" />
         <Route path="/" page={HomePage} name="home" />
         <Route path="/home" page={HomePage} name="home" />
       </Set>
