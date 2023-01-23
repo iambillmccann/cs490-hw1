@@ -12,12 +12,12 @@ const Routes = () => {
         <Route path="/mehakmaqsood" page={MehakmaqsoodPage} name="mehakmaqsood" />
         <Route path="/mateamilloshi" page={MateamilloshiPage} name="mateamilloshi" />
         <Route path="/pedropacheco" page={PedropachecoPage} name="pedropacheco" />
-        <Route path="/erik-chodaba" page={ErikChodabaPage} name="erikChodaba" />
+        <Route path="/erik-chodaba" page={ErikChodabaPage} name="erikchodaba" />
         <Route path="/nehashirwalker" page={NehashirwalkerPage} name="nehashirwalker" />
-        <Route path="/deanna-mostafa" page={DeannaMostafaPage} name="deannaMostafa" />
+        <Route path="/deanna-mostafa" page={DeannaMostafaPage} name="deannamostafa" />
         <Route path="/ritikasuresh" page={RitikasureshPage} name="ritikasuresh" />
-        <Route path="/saketh-lakshmanan" page={SakethLakshmananPage} name="sakethLakshmanan" />
-        <Route path="/safiullah-baig" page={SafiullahBaigPage} name="safiullahBaig" />
+        <Route path="/saketh-lakshmanan" page={SakethLakshmananPage} name="sakethlakshmanan" />
+        <Route path="/safiullah-baig" page={SafiullahBaigPage} name="safiullahbaig" />
         <Route path="/saivedagiri" page={SaivedagiriPage} name="saivedagiri" />
         <Route path="/tom-ehrola" page={TomEhrolaPage} name="tomEhrola" />
         <Route path="/jaspreetsingh" page={JaspreetSinghPage} name="jaspreetsingh" />
