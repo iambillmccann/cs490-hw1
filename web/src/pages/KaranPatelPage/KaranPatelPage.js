@@ -20,7 +20,7 @@ const KaranPage = () => {
               </Tr>
               <Tr>
                 <Td fontWeight={'bold'}>My Discord Id:</Td>
-                <Td>Karan</Td>
+                <Td>KaranPatel</Td>
               </Tr>
             </Tbody>
           </Table>
