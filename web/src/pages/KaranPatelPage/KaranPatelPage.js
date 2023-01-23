@@ -11,15 +11,15 @@ const KaranpatelPage = () => {
           <Table variant="simple">
             <Tbody>
               <Tr>
-                <Td fontWeight={'bold'}>My Name:</Td>
+                <Td fontWeight={'italic'}>My Name:</Td>
                 <Td>Karan Patel</Td>
               </Tr>
               <Tr>
-                <Td fontWeight={'bold'}>My GitHub Id:</Td>
+                <Td fontWeight={'italic'}>My GitHub Id:</Td>
                 <Td>karanpatel2002</Td>
               </Tr>
               <Tr>
-                <Td fontWeight={'bold'}>My Discord Id:</Td>
+                <Td fontWeight={'italic'}>My Discord Id:</Td>
                 <Td>KaranPatel</Td>
               </Tr>
             </Tbody>
