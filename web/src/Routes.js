@@ -3,6 +3,7 @@ import { Router, Route, Set } from '@redwoodjs/router'
 // eslint-disable-next-line no-unused-vars
 
 import Hw1Layout from './layouts/Hw1Layout/Hw1Layout'
+import JemilLayout from './layouts/JemilLayout/JemilLayout'
 import GabrielaAcevedoPage from './pages/GabrielaAcevedoPage/GabrielaAcevedoPage'
 
 const Routes = () => {
@@ -10,6 +11,7 @@ const Routes = () => {
     <Router>      
       <Route path="/namitha-yalla" page={NamithaYallaPage} name="namithaYalla" />      
       <Set wrap={Hw1Layout}>
+        <Route path="/namitha-yalla" page={NamithaYallaPage} name="namithaYalla" />
         <Route path="/ga288" page={GabrielaAcevedoPage} name="ga288" />
         <Route path="/dhyey" page={DhyeyPage} name="dhyey" />
         <Route path="/riyadesai" page={RiyadesaiPage} name="riyadesai" />
@@ -47,9 +49,12 @@ const Routes = () => {
         <Route path="/home" page={HomePage} name="home" />
         <Route path="/neelpatil" page={NeelpatilPage} name="neelpatil" />
       </Set>
+      <Set wrap={JemilLayout}>
+        <Route path="/jemil-srejic" page={JemilSrejicPage} name="jemil-srejic" />
+      </Set>
       <Route notfound page={NotFoundPage} />
     </Router>
   )
-}
+} //added route jemil srejic
 
 export default Routes
