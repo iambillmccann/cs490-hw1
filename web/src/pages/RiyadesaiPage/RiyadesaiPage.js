@@ -6,7 +6,7 @@ const RiyadesaiPage = () => {
     <>
       <MetaTags title="Riyadesai" description="Riyadesai page" />
 
-      <body style="background-color:skyblue;">
+      
         <div align = "center">
           <h1>Homework 1</h1>
           <p>My name is Riya Desai</p>
@@ -20,7 +20,7 @@ const RiyadesaiPage = () => {
 
             </p>
             </div>
-            </body>
+           
             </>
   )
 }
