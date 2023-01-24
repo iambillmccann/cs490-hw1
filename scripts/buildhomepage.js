@@ -42,7 +42,7 @@ console.log(folders)
 const links = folders.map((item) => {
   const routeName = item.slice(0, item.length - 4).toLowerCase()
   return utilities.format(
-    '          <Link to={routes.%s()}>%s</Link>',
+    '          <Link to={routes.%s()}>%s</Link><br />',
     routeName,
     routeName
   )
