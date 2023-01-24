@@ -1,0 +1,25 @@
+
+body{
+  background-color: lightgray;
+}
+
+.box{
+  background-color: white;
+  align-self: center;
+  display: flex;
+  text-align: center;
+  margin: auto;
+  margin-top: 3%;;
+  width: 50%;
+  height: 33rem;
+  box-shadow: 15px 15px 50px rgb(94, 109, 114);
+
+}
+
+.text{
+  margin:auto;
+  font-size: 25px;
+  font-family: "Georgia", serif;
+  color: rgb(22, 55, 125);
+}
+
