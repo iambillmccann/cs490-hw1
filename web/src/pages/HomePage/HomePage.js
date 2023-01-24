@@ -14,6 +14,8 @@ const HomePage = () => {
           <br />
           <Link to={routes.billmccann()}>billmccann</Link>
           <br />
+          <Link to={routes.manthanpatel()}>manthanpatel</Link>
+          <br />
           <Link to={routes.crismolina()}>crismolina</Link>
           <br />
           <Link to={routes.deannamostafa()}>deannamostafa</Link>
@@ -41,6 +43,8 @@ const HomePage = () => {
           <Link to={routes.saivedagiri()}>saivedagiri</Link>
           <br />
           <Link to={routes.sakethlakshmanan()}>sakethlakshmanan</Link>
+          <br />
+          <Link to={routes.manthanpatel()}>manthanpatel</Link>
           <br />
           {/* End */}
         </Text>

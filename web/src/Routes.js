@@ -1,5 +1,7 @@
 import { Router, Route, Set } from '@redwoodjs/router'
 
+// eslint-disable-next-line no-unused-vars
+
 import Hw1Layout from './layouts/Hw1Layout/Hw1Layout'
 
 const Routes = () => {
@@ -32,11 +34,12 @@ const Routes = () => {
         <Route path="/crismolina" page={CrismolinaPage} name="crismolina" />
         <Route path="/shriya-shah" page={ShriyaShahPage} name="shriyaShah" />
         <Route path="/billmccann" page={BillmccannPage} name="billmccann" />
+        <Route path="/manthanpatel" page={ManthanpatelPage} name="manthanpatel" />
         <Route path="/arijqureshi" page={ArijqureshiPage} name="arijqureshi" />
         <Route path="/jillianjacinto" page={JillianjacintoPage} name="jillianjacinto" />
         <Route path="/" page={HomePage} name="home" />
         <Route path="/home" page={HomePage} name="home" />
-      </Set>      
+      </Set>
       <Route notfound page={NotFoundPage} />
     </Router>
   )
