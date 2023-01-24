@@ -7,17 +7,17 @@ const KellyannegeorgePage = () => {
 
   return (
 
-    <body>
+    <>
       <MetaTags title="Kellyannegeorge" description="Kellyannegeorge page" />
       <Center>
       <Heading>Kelly's Page</Heading>
       </Center>
       <Center>
-      <div>
+      <box>
         <Text fontSize='3xl'>Name: KellyAnne George</Text>
         <Text fontSize='3xl'>Github: kg497</Text>
         <Text fontSize='3xl'>Discord: kellyanneg31</Text>
-      </div>
+      </box>
       </Center>
       <Center>
         <img
@@ -27,7 +27,7 @@ const KellyannegeorgePage = () => {
           height = "600"
         />
       </Center>
-    </body>
+    </>
   )
 }
 
