@@ -6,8 +6,15 @@ import Hw1Layout from './layouts/Hw1Layout/Hw1Layout'
 
 const Routes = () => {
   return (
-    <Router>
+    <Router>      
+      <Route path="/namitha-yalla" page={NamithaYallaPage} name="namithaYalla" />      
       <Set wrap={Hw1Layout}>
+        <Route path="/akashdeepsingh" page={AkashdeepsinghPage} name="akashdeepsingh" />
+        <Route path="/kellyannegeorge" page={KellyannegeorgePage} name="kellyannegeorge" />
+        <Route path="/steven-kyritsis" page={StevenKyritsisPage} name="stevenKyritsis" />
+        <Route path="/sean-ulep" page={SeanUlepPage} name="seanUlep" />
+        <Route path="/kevyn" page={KevynPage} name="kevyn" />
+        <Route path="/dhyey-kansagara" page={DhyeyKansagaraPage} name="dhyeyKansagara" />
         <Route path="/thomas-lanzetti" page={ThomasLanzettiPage} name="thomasLanzetti" />
         <Route path="/ryanmccusker" page={RyanmccuskerPage} name="ryanmccusker" />
         <Route path="/gabrielpascual" page={GabrielpascualPage} name="gabrielpascual" />
@@ -25,6 +32,7 @@ const Routes = () => {
         <Route path="/jaspreetsingh" page={JaspreetSinghPage} name="jaspreetsingh" />
         <Route path="/keyadhruve" page={KeyadhruvePage} name="keyadhruve" />
         <Route path="/crismolina" page={CrismolinaPage} name="crismolina" />
+        <Route path="/shriya-shah" page={ShriyaShahPage} name="shriyaShah" />
         <Route path="/billmccann" page={BillmccannPage} name="billmccann" />
         <Route path="/manthanpatel" page={ManthanpatelPage} name="manthanpatel" />
         <Route path="/arijqureshi" page={ArijqureshiPage} name="arijqureshi" />
