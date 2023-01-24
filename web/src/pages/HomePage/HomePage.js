@@ -10,6 +10,8 @@ const HomePage = () => {
       <Box>
         <Text>
           {/* Start */}
+          <Link to={routes.ak()}>avneetkaur</Link>
+          <br />
           <Link to={routes.akashdeepsingh()}>akashdeepsingh</Link>
           <br />
           <Link to={routes.arijqureshi()}>arijqureshi</Link>
