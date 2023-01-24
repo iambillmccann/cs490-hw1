@@ -10,6 +10,8 @@ const Routes = () => {
       <Route path="/namitha-yalla" page={NamithaYallaPage} name="namithaYalla" />      
       <Set wrap={Hw1Layout}>
         <Route path="/riyadesai" page={RiyadesaiPage} name="riyadesai" />
+        <Route path="/elimojica" page={ElimojicaPage} name="elimojica" />
+        <Route path="/mvd29" page={Mvd29Page} name="mvd29" />
         <Route path="/akashdeepsingh" page={AkashdeepsinghPage} name="akashdeepsingh" />
         <Route path="/kellyannegeorge" page={KellyannegeorgePage} name="kellyannegeorge" />
         <Route path="/steven-kyritsis" page={StevenKyritsisPage} name="stevenKyritsis" />
