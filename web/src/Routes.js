@@ -10,9 +10,8 @@ const Routes = () => {
         <Route path="/" page={HomePage} name="home" />
         <Route path="/home" page={HomePage} name="home" />
       </Set>
-       <Set wrap={JemilLayout}>
+      <Set wrap={JemilLayout}>
         <Route path="/jemil-srejic" page={JemilSrejicPage} name="jemil-srejic" />
-
       </Set>
       <Route notfound page={NotFoundPage} />
     </Router>
