@@ -10,6 +10,7 @@ const HomePage = () => {
       <Box>
         <Text>
           {/* Start */}
+          <Link to={routes.ga288()}>gabrielaacevedo</Link>
           <Link to={routes.billmccann()}>billmccann</Link>
           {/* End */}
         </Text>

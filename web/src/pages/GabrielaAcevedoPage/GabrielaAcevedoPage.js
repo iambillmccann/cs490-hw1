@@ -28,10 +28,12 @@ const GabrielaAcevedoPage = () => {
       </Center>
       <br />
       <Center>
-        <img
+        <iframe
+          width={500}
+          height={500}
           src="https://giphy.com/embed/nuufztgCvyJZIuSkgd/video"
-          alt="Cat Typing"
-        />
+          title="Cat Typing"
+        ></iframe>
       </Center>
     </box>
   )
