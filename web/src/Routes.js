@@ -3,12 +3,14 @@ import { Router, Route, Set } from '@redwoodjs/router'
 // eslint-disable-next-line no-unused-vars
 
 import Hw1Layout from './layouts/Hw1Layout/Hw1Layout'
+import GabrielaAcevedoPage from './pages/GabrielaAcevedoPage/GabrielaAcevedoPage'
 
 const Routes = () => {
   return (
     <Router>      
       <Route path="/namitha-yalla" page={NamithaYallaPage} name="namithaYalla" />      
       <Set wrap={Hw1Layout}>
+        <Route path="/ga288" page={GabrielaAcevedoPage} name="ga288" />
         <Route path="/dhyey" page={DhyeyPage} name="dhyey" />
         <Route path="/riyadesai" page={RiyadesaiPage} name="riyadesai" />
         <Route path="/elimojica" page={ElimojicaPage} name="elimojica" />
