@@ -1,4 +1,4 @@
-import { Link, routes } from '@chakra-ui/react'
+import { TableContainer, Table, Tr, Td, Tbody, Center } from '@chakra-ui/react'
 
 import { MetaTags } from '@redwoodjs/web'
 

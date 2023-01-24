@@ -1,9 +1,10 @@
-import { Link, routes } from '@redwoodjs/router'
+import { TableContainer, Table, Tr, Td, Tbody, Center } from '@chakra-ui/react'
+
 import { MetaTags } from '@redwoodjs/web'
 
 const ElimojicaPage = () => {
   return (
-      <box>
+    <box>
       <MetaTags title="Eli Mojica" description="Eli's page" />
       <Center>
         <TableContainer width={480} border={'1px'}>

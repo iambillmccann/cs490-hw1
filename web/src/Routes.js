@@ -8,10 +8,9 @@ import GabrielaAcevedoPage from './pages/GabrielaAcevedoPage/GabrielaAcevedoPage
 
 const Routes = () => {
   return (
-    <Router>      
-      <Route path="/namitha-yalla" page={NamithaYallaPage} name="namithaYalla" />      
+    <Router>
       <Set wrap={Hw1Layout}>
-        <Route path="/namitha-yalla" page={NamithaYallaPage} name="namithaYalla" />
+        <Route path="/namitha-yalla" page={NamithaYallaPage} name="namithayalla" />
         <Route path="/ga288" page={GabrielaAcevedoPage} name="ga288" />
         <Route path="/dhyey" page={DhyeyPage} name="dhyey" />
         <Route path="/riyadesai" page={RiyadesaiPage} name="riyadesai" />
@@ -19,11 +18,11 @@ const Routes = () => {
         <Route path="/mvd29" page={Mvd29Page} name="mvd29" />
         <Route path="/akashdeepsingh" page={AkashdeepsinghPage} name="akashdeepsingh" />
         <Route path="/kellyannegeorge" page={KellyannegeorgePage} name="kellyannegeorge" />
-        <Route path="/steven-kyritsis" page={StevenKyritsisPage} name="stevenKyritsis" />
-        <Route path="/sean-ulep" page={SeanUlepPage} name="seanUlep" />
+        <Route path="/steven-kyritsis" page={StevenKyritsisPage} name="stevenkyritsis" />
+        <Route path="/sean-ulep" page={SeanUlepPage} name="seanulep" />
         <Route path="/kevyn" page={KevynPage} name="kevyn" />
-        <Route path="/dhyey-kansagara" page={DhyeyKansagaraPage} name="dhyeyKansagara" />
-        <Route path="/thomas-lanzetti" page={ThomasLanzettiPage} name="thomasLanzetti" />
+        <Route path="/dhyey-kansagara" page={DhyeyKansagaraPage} name="dhyeykansagara" />
+        <Route path="/thomas-lanzetti" page={ThomasLanzettiPage} name="thomaslanzetti" />
         <Route path="/ryanmccusker" page={RyanmccuskerPage} name="ryanmccusker" />
         <Route path="/gabrielpascual" page={GabrielpascualPage} name="gabrielpascual" />
         <Route path="/mehakmaqsood" page={MehakmaqsoodPage} name="mehakmaqsood" />
@@ -36,12 +35,12 @@ const Routes = () => {
         <Route path="/saketh-lakshmanan" page={SakethLakshmananPage} name="sakethlakshmanan" />
         <Route path="/safiullah-baig" page={SafiullahBaigPage} name="safiullahbaig" />
         <Route path="/saivedagiri" page={SaivedagiriPage} name="saivedagiri" />
-        <Route path="/tom-ehrola" page={TomEhrolaPage} name="tomEhrola" />
+        <Route path="/tom-ehrola" page={TomEhrolaPage} name="tomehrola" />
         <Route path="/jaspreetsingh" page={JaspreetSinghPage} name="jaspreetsingh" />
         <Route path="/keyadhruve" page={KeyadhruvePage} name="keyadhruve" />
         <Route path="/crismolina" page={CrismolinaPage} name="crismolina" />
         <Route path="/murtajizkazmi" page={MurtajizkazmiPage} name="murtajizkazmi" />
-        <Route path="/shriya-shah" page={ShriyaShahPage} name="shriyaShah" />
+        <Route path="/shriya-shah" page={ShriyaShahPage} name="shriyashah" />
         <Route path="/billmccann" page={BillmccannPage} name="billmccann" />
         <Route path="/manthanpatel" page={ManthanpatelPage} name="manthanpatel" />
         <Route path="/arijqureshi" page={ArijqureshiPage} name="arijqureshi" />
@@ -51,7 +50,7 @@ const Routes = () => {
         <Route path="/neelpatil" page={NeelpatilPage} name="neelpatil" />
       </Set>
       <Set wrap={JemilLayout}>
-        <Route path="/jemil-srejic" page={JemilSrejicPage} name="jemil-srejic" />
+        <Route path="/jemilsrejic" page={JemilSrejicPage} name="jemilsrejic" />
       </Set>
       <Route notfound page={NotFoundPage} />
     </Router>

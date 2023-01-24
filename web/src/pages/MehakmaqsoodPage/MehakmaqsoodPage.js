@@ -1,4 +1,5 @@
-import { Link, routes } from '@redwoodjs/router'
+import { TableContainer, Table, Tr, Td, Tbody, Center } from '@chakra-ui/react'
+
 import { MetaTags } from '@redwoodjs/web'
 
 const MehakmaqsoodPage = () => {
