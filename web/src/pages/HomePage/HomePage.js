@@ -13,6 +13,9 @@ const HomePage = () => {
           <Link to={routes.billmccann()}>billmccann</Link>
           {/* End */}
         </Text>
+        <Text>
+          <Link to={routes.karanpatel()}>karanpatel</Link>
+        </Text>
       </Box>
     </>
   )

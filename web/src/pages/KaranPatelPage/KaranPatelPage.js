@@ -20,7 +20,7 @@ const KaranpatelPage = () => {
               </Tr>
               <Tr>
                 <Td fontWeight={'italic'}>My Discord Id:</Td>
-                <Td>KaranPatel</Td>
+                <Td>i5hadow</Td>
               </Tr>
             </Tbody>
           </Table>

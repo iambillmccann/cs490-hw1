@@ -1,6 +1,6 @@
 import KaranpatelPage from './KaranpatelPage'
 
-export const generated = (args) => {
+export const generated = (args ) => {
   return <KaranpatelPage {...args} />
 }
 
