@@ -8,7 +8,8 @@
     ]
   },
   "devDependencies": {
-    "@redwoodjs/core": "2.2.3"
+    "@redwoodjs/core": "2.2.3",
+    "prettier-plugin-tailwindcss": "^0.2.2"
   },
   "eslintConfig": {
     "extends": "@redwoodjs/eslint-config",
@@ -23,11 +24,11 @@
   },
   "packageManager": "yarn@3.2.1",
   "dependencies": {
-    "styled-components": "^5.3.6",
     "@chakra-ui/react": "^2.4.9",
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
     "framer-motion": "^8.5.0",
+    "styled-components": "^5.3.6",
     "yarn": "^1.22.19"
   }
 }
