@@ -88,6 +88,11 @@ const HomePage = () => {
           <br />
           {/* End */}
         </Text>
+        <Text>
+          {/* Start */}
+          <Link to={routes.casey()}>casey</Link>
+          {/* End */}
+        </Text>
       </Box>
     </>
   )
