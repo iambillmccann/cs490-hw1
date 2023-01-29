@@ -9,6 +9,7 @@ import GabrielaAcevedoPage from './pages/GabrielaAcevedoPage/GabrielaAcevedoPage
 const Routes = () => {
   return (
     <Router>
+      <Route path="/vashu-patel" page={VashuPatelPage} name="vashuPatel" />
       <Set wrap={Hw1Layout}>
         <Route path="/ak" page={AKPage} name="ak" />
         <Route path="/namitha-yalla" page={NamithaYallaPage} name="namithayalla" />
